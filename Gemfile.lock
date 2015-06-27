@@ -1,10 +1,10 @@
 GIT
   remote: https://github.com/CoastDigitalGroup/cdg-subengine
-  revision: 4aaec106922d3ed23738848e861ae3ebf89f4570
+  revision: 5c8536239e0bb7f27697206bb5d6b33e05883822
   specs:
-    subengine (0.8.2)
+    subengine (0.8.7)
       bootstrap-sass (~> 3.3.3)
-      devise
+      devise (~> 3.4.1)
       houser (~> 2.0)
       jquery-rails
       omniauth-facebook
@@ -79,7 +79,7 @@ GEM
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
     debug_inspector (0.0.2)
-    devise (3.5.1)
+    devise (3.4.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
