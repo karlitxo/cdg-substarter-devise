@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/CoastDigitalGroup/cdg-subengine
-  revision: bd14a2663145abe2af9a4b43b4398084f3824caf
+  revision: 56b9b26a5252f55019fa91f126f362747e3ec3c0
   specs:
     subengine (0.8.9)
       bootstrap-sass (~> 3.3.3)
@@ -187,7 +187,7 @@ GEM
       railties (>= 4.2.0, < 5)
     rolify (4.0.0)
     sass (3.4.15)
-    sass-rails (5.0.2)
+    sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.1)
       sprockets (>= 2.8, < 4.0)
