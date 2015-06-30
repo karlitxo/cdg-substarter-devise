@@ -1,2 +1,2 @@
-### CoastDigitalGroup - SubStarter
+= CoastDigitalGroup - SubStarter
 Starter rails app with devise for authetication & subengine pre-installed for multitenancy functions ready to go.
