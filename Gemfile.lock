@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/CoastDigitalGroup/cdg-subengine
-  revision: ae32ef4916df81c0a6cc6f18f353091ec7b560d9
+  revision: 2af76555ad4c5cdc37d35c25d5ef5a5b37fd59ab
   specs:
-    subengine (0.9.3)
+    subengine (0.9.7)
       bootstrap-sass
       devise
       houser
