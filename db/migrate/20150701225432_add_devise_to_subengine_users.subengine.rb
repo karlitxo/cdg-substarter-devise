@@ -1,4 +1,4 @@
-# This migration comes from subengine (originally 20140426143800)
+# This migration comes from subengine (originally 20150426143800)
 class AddDeviseToSubengineUsers < ActiveRecord::Migration
   def self.up
     change_table(:subengine_users) do |t|

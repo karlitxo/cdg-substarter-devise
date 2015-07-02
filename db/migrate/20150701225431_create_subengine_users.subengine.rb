@@ -1,4 +1,4 @@
-# This migration comes from subengine (originally 20140426115910)
+# This migration comes from subengine (originally 20150426115910)
 class CreateSubengineUsers < ActiveRecord::Migration
   def change
     create_table :subengine_users do |t|

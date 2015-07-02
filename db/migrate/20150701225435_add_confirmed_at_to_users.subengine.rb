@@ -1,4 +1,4 @@
-# This migration comes from subengine (originally 20140504181830)
+# This migration comes from subengine (originally 20150504181830)
 class AddConfirmedAtToUsers < ActiveRecord::Migration
   def change
     add_column :subengine_users, :confirmed_at, :timestamp
