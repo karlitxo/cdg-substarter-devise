@@ -15,7 +15,7 @@ gem 'jbuilder'
 gem 'sdoc'
 
 # Load Subengine for MultiTenancy
-gem 'subengine', :git => 'https://github.com/CoastDigitalGroup/cdg-subengine'
+gem 'subengine'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
