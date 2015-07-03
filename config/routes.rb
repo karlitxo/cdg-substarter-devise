@@ -54,9 +54,9 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  #constraints(Subengine::Constraints::SubdomainRequired) do
+  constraints(Subengine::Constraints::SubdomainRequired) do
     root :to => "welcome#index", :as => :account_root
-  #end
+  end
 
   mount Subengine::Engine => "/"
 
