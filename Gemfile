@@ -2,7 +2,10 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
-gem 'sqlite3'
+gem 'sqlite3', group: :development
+
+# Load Subengine from github for latest version
+gem 'subengine', git: 'http://github.com/CoastDigitalGroup/cdg-subengine.git'
 
 # Style Sheets & Java Scripts
 gem 'sass-rails'
@@ -13,9 +16,6 @@ gem 'turbolinks'
 
 gem 'jbuilder'
 gem 'sdoc'
-
-# Load Subengine from github for latest version
-gem 'subengine', git: 'http://github.com/CoastDigitalGroup/cdg-subengine.git'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -28,13 +28,7 @@ gem 'unicorn'
 
 group :development, :test do
 	gem 'quiet_assets'
-
-	# Call 'byebug' anywhere in the code to stop execution and get a debugger console
 	gem 'byebug'
-
-	# Access an IRB console on exception pages or by using <%= console %> in views
 	gem 'web-console'
-
-	# Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 	gem 'spring'
 end
