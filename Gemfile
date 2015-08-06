@@ -1,34 +1,53 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
-gem 'sqlite3', group: :development
+# Main
+gem 'rails', '4.2.3'
 
-# Load Subengine from github for latest version
+# Database + Speration
 gem 'subengine', git: 'http://github.com/CoastDigitalGroup/cdg-subengine.git'
+gem 'sqlite3', group: :development
+gem 'pg', group: :production
+gem 'rails_12factor', group: :production
+gem 'puma'
 
-# Style Sheets & Java Scripts
-gem 'sass-rails'
-gem 'uglifier'
-gem 'coffee-rails'
-gem 'jquery-rails'
+# UI + Frontend Scripts
+gem 'sass-rails', '~> 5.0.3'
+gem 'less-rails'
+gem 'therubyracer'
 gem 'turbolinks'
 
-gem 'jbuilder'
-gem 'sdoc'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.0.0'
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'jquery-rails', '~> 4.0.3'
+gem 'jquery-ui-rails'
 
-# Use Unicorn as the app server
-gem 'unicorn'
+gem 'animate-rails', '~> 1.0.7'
+gem 'jquery-slimscroll-rails'
+gem 'icheck-rails'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'bootstrap-sass'
+gem 'gravtastic'
+gem 'font-awesome-rails'
 
+# Configuration
+gem 'figaro'
+
+# Mailer Functions
+gem 'mandrill-rails'
+
+# Serialization + API
+gem 'jbuilder', '~> 2.0'
+gem 'sdoc', '~> 0.4.0', group: :doc
+
+# Development
+gem 'spring', group: :development
+
+# Testing
 group :development, :test do
-	gem 'quiet_assets'
-	gem 'byebug'
-	gem 'web-console'
-	gem 'spring'
+	gem 'rspec-rails', '3.0.1' 
+	gem 'capybara', '2.3.0' 
 end
+
+# Status and Monitoring
+gem 'newrelic_rpm'
