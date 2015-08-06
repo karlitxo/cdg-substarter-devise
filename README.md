@@ -1,2 +1,3 @@
+[![security](https://hakiri.io/github/CoastDigitalGroup/cdg-substarter/master.svg)](https://hakiri.io/github/CoastDigitalGroup/cdg-substarter/master)
 ##### CoastDigitalGroup - SubStarter  
 A ruby on rails multi-tenancy starter app with subengine gem pre-installed and configured. Includes bootstrap and fontawesome for some basic ui elements to start. If you're having trouble with cdg-subengine gem this could be a good place to get your project going.
