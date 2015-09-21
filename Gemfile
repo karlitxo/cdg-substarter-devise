@@ -4,25 +4,25 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 
 # Database + Speration
-gem 'subengine', git: 'http://github.com/CoastDigitalGroup/cdg-subengine.git'
+gem 'subengine'
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 gem 'puma'
 
 # UI + Frontend Scripts
-gem 'sass-rails', '~> 5.0.3'
+gem 'sass-rails'
 gem 'less-rails'
 gem 'therubyracer'
 gem 'turbolinks'
 
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'uglifier'
+gem 'coffee-rails'
 
-gem 'jquery-rails', '~> 4.0.3'
+gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
-gem 'animate-rails', '~> 1.0.7'
+gem 'animate-rails'
 gem 'jquery-slimscroll-rails'
 gem 'icheck-rails'
 
